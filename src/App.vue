@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <h1 class="title">"And We Knew It Was Our Time...""</h1>
     <TimeWorld v-for="(time, keys) of timers" :key="keys" :region="time.region" :utc="time.utc" />
   </div>
 </template>
